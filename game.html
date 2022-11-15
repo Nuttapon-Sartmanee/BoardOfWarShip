@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Board Of Warship</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/game.css">
+    <script src="js/game.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        <h2>Board Of Warship</h2>
+        <p id="hint">shot in the position between 1 and 10 on rows and column</p>
+    
+        <div id="RowColumn">
+        Row    <input type="number" name="" id="rowChosen">
+        Column <input type="number" name="" id="columnChosen">
+        <input id="shotBtn" type="button" value="Shoot!" onclick="shotRocket()">
+        </div>
+    </div>
+
+    <br> <p id="display"></p>
+<div class="gameBoard">
+    <table id="boardTable" border="1">
+        <thead><th>0</th><th>- 1 -</th><th>- 2 -</th>
+            <th>- 3 -</th><th>- 4 -</th><th>- 5 -</th>
+            <th>- 6 -</th><th>- 7 -</th><th>- 8 -</th>
+            <th>- 9 -</th><th>- 10 -</th></thead>
+            <tr><td>- 1 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            <tr><td>- 2 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            <tr><td>- 3 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            <tr><td>- 4 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            <tr><td>- 5 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            <tr><td>- 6 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            <tr><td>- 7 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            <tr><td>- 8 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            <tr><td>- 9 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            <tr><td>- 10 -</td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+    </table>
+</div>
+    <input id="GiveupBtn" type="button" value="Give up! Show all Ship" onclick="showAllShips()">
+    <a href="/index.html"> <button class="button" id="backBtn">Back to menu</button></a>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'glacial';
+	src: url("/GlacialIndifference/GlacialIndifference-Regular.otf");
+}
+@font-face {
+	font-family: 'glacialBold';
+	src: url("/GlacialIndifference/GlacialIndifference-Bold.otf");
+}
+
+h2{
+    font-size: 300%;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+#header{
+    background-color: rgba(0, 0, 0, 0.621);
+    padding-bottom: 1%;
+    padding-top: 0.1px;
+}
+
+#hint{
+    font-size: 160%;
+    color: white;
+}
+
+#RowColumn{
+    font-size: 120%;
+    color: white;
+}
+
+body{
+    margin: 0;
+    font-family: 'glacial';
+	background-image: url("/pic/bg.png");
+    box-sizing: border-box;
+    text-align: center;
+}
+
+table{
+    font-size: 190%;
+    font-weight: bold;
+    background-color: rgb(0, 139, 139);
+}
+
+td{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#boardTable{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+    border: 1px rgb(0, 139, 139);
+}
+
+#shotBtn{
+    font-size: 120%;
+    font-family: 'glacial';
+    background-color: rgb(250, 87, 87);
+    margin-left: 1%;
+}
+
+#display{
+    font-size: 160%;
+    font-family: 'glacial';
+    color: white;
+    margin: 0;
+    padding-bottom: 1%;
+}
+
+#GiveupBtn{
+    margin-top: 10px;
+    font-size: 120%;
+    font-family: 'glacial';
+}
+
+#backBtn{
+    font-size: 120%;
+    font-family: 'glacial';
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 20%;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
