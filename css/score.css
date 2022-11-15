@@ -68,11 +68,11 @@ body{
 }
 @font-face {
 	font-family: 'glacial';
-	src: url("/GlacialIndifference/GlacialIndifference-Regular.otf");
+	src: url("/fonts/GlacialIndifference-Regular.otf");
 }
 @font-face {
 	font-family: 'glacialBold';
-	src: url("/GlacialIndifference/GlacialIndifference-Bold.otf");
+	src: url("/fonts/GlacialIndifference-Bold.otf");
 }
 
 .likeButton{
