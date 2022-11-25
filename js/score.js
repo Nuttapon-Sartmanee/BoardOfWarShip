@@ -94,7 +94,7 @@ function setHighScoreAndLike(topScore){
 
 function setLikeFunction(){
 	for(var i = 1; i <= 5; i++){
-		likeBtn[i-1] = document.getElementById("like"+i)
+		likeBtn[i-1] = document.getElementById("like"+ i)
 	}
 
 	likeBtn[0].addEventListener('click', () => {
